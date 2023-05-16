@@ -1,7 +1,7 @@
 ## Semantic Search Demo (University of West Bohemia)
 ---
 
-https://malach-aq.kky.zcu.cz/
+https://malach-aq.kky.zcu.cz/ (development version, please use Chrome for now)
 
 - Martin Bulín <bulinm@kky.zcu.cz>
 - Jan Švec <honzas@kky.zcu.cz>
