@@ -69,7 +69,7 @@ def translate(text, src='cs', tgt='en'):
     ret = post(translator_url, data = {'input_text': text})
     return ret.content.decode('utf-8').strip()
 
-translate('Jak se jmenoval váš otec?')
+print(translate('Jak se jmenoval váš otec?'))
 
-What was your father's name?
+>> What was your father's name?
 ```
