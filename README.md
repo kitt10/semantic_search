@@ -57,3 +57,17 @@ Q0: How many siblings do you have?
 [1.1591] What was your mother's name?
 [1.2738] What did you have for lunch?
 ```
+
+### SC: Lindat Translation
+```
+from requests import post
+
+def translate(text, src='cs', tgt='en'):
+    translator_url = f'https://lindat.cz/services/translation/api/v2/languages/?src={src}&tgt={tgt}'
+    ret = post(translator_url, data = {'input_text': text})
+    return ret.content.decode('utf-8').strip()
+
+translate('Jak se jmenoval váš otec?')
+
+What was your father's name?
+```
