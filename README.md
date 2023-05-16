@@ -1,10 +1,20 @@
-## Asking Questions Framework
+## Semantic Search Demo (University of West Bohemia)
 ---
+
+- Martin Bulín <bulinm@kky.zcu.cz>
+- Jan Švec <honzas@kky.zcu.cz>
+
+
+EHRI/CLARIN Workshop (London, May 2023)
+
 ### AQ: Asking Questions model
+This model is able to generate relevant questions (and brief answers) from a given context.
 
 - Context
 ``` 
-Ed Ryder plays the trumpet. He was sentenced to Graterford Penitentiary in Pennsylvania for 20 years for a murder it was later shown he did not commit. He played jazz when he was in prison. He played jazz when he got out. And he says that it is a completely different experience playing jazz to inmates.
+Ed Ryder plays the trumpet. He was sentenced to Graterford Penitentiary in Pennsylvania 
+for 20 years for a murder it was later shown he did not commit. He played jazz when he was in prison. 
+He played jazz when he got out. And he says that it is a completely different experience playing jazz to inmates.
 ```
 
 - Output
