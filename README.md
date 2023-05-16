@@ -1,6 +1,8 @@
 ## Semantic Search Demo (University of West Bohemia)
 ---
 
+https://malach-aq.kky.zcu.cz/
+
 - Martin Bulín <bulinm@kky.zcu.cz>
 - Jan Švec <honzas@kky.zcu.cz>
 
